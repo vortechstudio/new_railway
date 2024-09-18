@@ -1,0 +1,23 @@
+name: new_railway
+id: 'ari:cloud:compass:7f85a96e-7e77-4d39-977e-c1fae839d3dd:component/34ffada3-fa9f-4f4f-86c1-c4700d9ebf01/fdb225b8-191f-4a0b-9d2b-e556654dd820'
+description: "Importé depuis un dépôt\_GitHub lié au projet\_Jira Railway Manager."
+configVersion: 1
+typeId: SERVICE
+ownerId: 'ari:cloud:identity::team/38c1d37c-6b4d-45b9-960c-a7edc15cab9a'
+fields:
+  tier: 4
+links:
+  - name: vortechstudio/new_railway
+    type: REPOSITORY
+    url: 'https://github.com/vortechstudio/new_railway'
+  - name: Railway Manager
+    type: PROJECT
+    url: 'https://vortechstudio.atlassian.net/browse/RM'
+relationships: {}
+labels:
+  - jira-import
+  - synced-with-jsm
+customFields: null
+
+# En savoir plus sur le formatage compass.yml :
+# https://go.atlassian.com/compass-yml-format
